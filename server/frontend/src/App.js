@@ -1,4 +1,5 @@
-import LoginPanel from "./components/Login/Login"
+import LoginPanel from "./components/Login/Login";
+import Register from "./components/Register/Register"; // <-- nouvel import
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -9,4 +10,5 @@ function App() {
     </Routes>
   );
 }
+
 export default App;
